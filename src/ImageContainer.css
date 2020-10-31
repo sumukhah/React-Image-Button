@@ -1,0 +1,32 @@
+.image_container {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}
+.image_container .image {
+  /* background-color: red; */
+  transition: 0.35s ease-in-out;
+}
+
+.zoom_out:hover > .image {
+  transform: scale(0.8);
+}
+
+.zoom_in:hover > .image {
+  transform: scale(1.2);
+}
+
+.hidden {
+  display: none;
+}
+.buttons {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image_container:hover > .hidden {
+  display: block;
+}

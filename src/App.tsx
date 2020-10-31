@@ -1,24 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./download.png";
+import ImageWithButtons from "./ImageWithButtons";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ImageWithButtons
+        // enableZoomOnHover={0}
+        // containerStyle={{}}
+        img={
+          <img
+            src={logo}
+            alt="logo"
+            style={
+              {
+                // backgroundColor: "black",
+                // margin: "50px",
+                // height: "250px",
+                // width: "100%",
+              }
+            }
+          />
+        }
+        buttons={
+          <div>
+            <button>Hello world</button>
+          </div>
+        }
+      />
     </div>
   );
 }
