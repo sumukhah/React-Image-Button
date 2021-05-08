@@ -30,3 +30,5 @@ Add buttons inside an image with react-image-button library.
 |containerStyle|{}|False|Style Object|
 |alwaysShowButton|False|False|Boolean|
 |buttonsContainerStyle|{}|False|Style object|
+
+if you are interested in contributing to this repository, read [contributing.md](https://github.com/sumukhah/React-Image-Button/contributing.md)
