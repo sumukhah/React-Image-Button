@@ -3,6 +3,8 @@ Add buttons inside an image with react-image-button library.
 
 ![react-image-button](https://github.com/sumukhah/React-Image-Buttons/blob/develop/gif.gif?raw=true)
 
+install with `npm install react-image-button`
+
 ### Using with zero parameters
 ```
   import ImageButton from 'react-image-button';
