@@ -1,0 +1,5 @@
+node_modules
+contributing.md
+*.gif
+.storybook
+stories
