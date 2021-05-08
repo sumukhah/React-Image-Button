@@ -3,3 +3,4 @@ contributing.md
 *.gif
 .storybook
 stories
+.vscode
