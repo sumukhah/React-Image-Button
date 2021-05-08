@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "./assets/image.jpeg";
 
-import ImageWithButtons from "../src/components";
+import ImageWithButtons from "../src/";
 import { Button } from "./Button";
 
 export default {
