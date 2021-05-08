@@ -4,3 +4,5 @@ contributing.md
 .storybook
 stories
 .vscode
+rollup.config.js
+src
