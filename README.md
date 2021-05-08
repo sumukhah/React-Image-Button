@@ -20,7 +20,7 @@ Add buttons inside an image with react-image-button library.
 | :--------------: | :---------: | :----------: |:---------------- |
 |img|null|True |location\image component|
 |button|null|True|React component|
-|zoomOnHover|True|False|1, 0, -1|
+|zoomOnHover|1|False|1, 0, -1|
 |animationDuration|1|False|Number|
 |buttonPosition|center|False|"top", "bottom", "center"|
 |onMouseEnter|null|False|callback function|
